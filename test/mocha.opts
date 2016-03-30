@@ -1,0 +1,9 @@
+--check-leaks
+--recursive
+--globals projection
+--ui bdd
+--compilers js:babel-register
+--timeout 30s
+--watch
+test
+lib/**/*-test.js
