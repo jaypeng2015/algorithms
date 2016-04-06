@@ -7,7 +7,7 @@
     "mocha": true,
   },
   "rules": {
-    "id-length": [2, {"min": 2, "properties": "never", "exceptions": ["_", "i", "j"]}],
+    "id-length": [2, {"min": 2, "properties": "never", "exceptions": ["_", "i", "j", "x", "y"]}],
     "indent": [2, 2, {"SwitchCase": 1}],
     "max-len": [0],
     "react/jsx-no-bind": 1,
